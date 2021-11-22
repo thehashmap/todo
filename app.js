@@ -11,7 +11,6 @@ todoList.addEventListener("click", deleteTodo);
 filterOption.addEventListener("click", filterTodo);
 
 //Functions
-
 function addTodo(e) {
   //Prevent natural behaviour
   e.preventDefault();
